@@ -20,6 +20,8 @@ Instead of writing complex math from scratch, NetworkX comes with a massive libr
 - You can easily convert data from Pandas DataFrames or NumPy arrays into a NetworkX graph, analyze it, and then export the results.
 - You can attach "attributes" to nodes and edges. For example, a node representing a city can store its population, and an edge representing a road can store its length or speed limit.
 
+Knowledge Graphs - A Knowledge Graph is a way of organizing and connecting data so that a computer understands not just the words, but the concepts and the relationships between them.
+
 # Tech Stack - 
 1) Python
 2) NetworkX
