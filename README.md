@@ -22,6 +22,12 @@ Instead of writing complex math from scratch, NetworkX comes with a massive libr
 
 Knowledge Graphs - A Knowledge Graph is a way of organizing and connecting data so that a computer understands not just the words, but the concepts and the relationships between them.
 
+## Main Functions - 
+T = nx.from_pandas_edgelist(df, 'FOLLOWER', 'FOLLOWEE', create_using=nx.DiGraph()) - Used to create a NetworkX object (Directed Graph)
+T.neighbors(user1) - Since this is a directed graph, this function will return the list of all users which user1 follows (edges directing out)
+T.nodes() - Gives a list of all the nodes in the NetworkX object. (Only unique records from the original dataset are present) 
+nx.degree_centrality(T) - It gives the total number of edges directing (in or out) from each node in the NetworkX object. It is a list of tuple pairs (node, degree centrality) 
+
 # Tech Stack - 
 1) Python
 2) NetworkX
